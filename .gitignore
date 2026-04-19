@@ -1,0 +1,11 @@
+# Sandbox — internal testing only, never commit
+sandbox/
+
+# Local Claude Code settings — machine-specific paths
+.claude/settings.local.json
+
+# Session logs — repo-specific, generated at runtime
+.agent-os/logs/sessions/
+
+# Current handoff — regenerated each session
+.agent-os/logs/handoffs/current-handoff.md
